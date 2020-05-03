@@ -53,23 +53,17 @@ class EducationPage extends StatelessWidget {
                     .make(),
                 SizedBox(height: 30.0),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     RaisedButton(
                       onPressed: _launchURL,
-                      child: Padding(
-                        padding: EdgeInsets.all(15.0),
-                        child: 'Donate and help'.text.make(),
-                      ),
+                      child: 'Donate and help'.text.make(),
                       color: AppColors.primaryRed,
                       textColor: Colors.white,
                     ),
                     RaisedButton(
                       onPressed: _launchDebunkedMyths,
-                      child: Padding(
-                        padding: EdgeInsets.all(15.0),
-                        child: 'Debunked myths'.text.make(),
-                      ),
+                      child: 'Debunked myths'.text.make(),
                       color: AppColors.primaryRed,
                       textColor: Colors.white,
                     ),

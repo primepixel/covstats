@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
               icon: Icon(Icons.book), title: Text('Education')),
           BottomNavigationBarItem(
-              icon: Icon(Icons.bookmark), title: Text('FAQs')),
+              icon: Icon(Icons.calendar_view_day), title: Text('FAQs')),
         ],
       );
 
